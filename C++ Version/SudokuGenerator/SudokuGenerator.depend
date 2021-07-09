@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1625831230 source:c:\users\kerem\desktop\c++\sudokugenerator\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	<bits/stdc++.h>
+	<vector>
+	<array>
+	<random>
+	<algorithm>
+
