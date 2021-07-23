@@ -160,13 +160,13 @@ class Generator:
             while True:
                 try: 
                     inp = int(sinp)
+                    if 0 < inp <= 4:
+                        break
+                    else: print("Enter a valid input.")
                 except:
                     print("Enter a valid input.")
                     sinp = input("Command: ")
-                if 0 < inp <= 4:
-                    break
-                print("Enter a valid input.")
-
+                
             if inp == 1:
                 self.generate()
                 self.make_image()
